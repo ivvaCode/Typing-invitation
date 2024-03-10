@@ -1,0 +1,198 @@
+body {
+    background-color: #FAFDD6;
+  
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #df5772;
+    font-size: 60px;
+    
+}
+ .heading,.heading1 {
+    display: flex;
+    justify-content: center;  
+}
+.newHeading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #df5772;
+    font-size: 70px;
+}
+.newImage {
+  display: none;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.left, .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.meeting {
+    background-color: #d1ffac;
+    height: 180px;
+    width: 150px;
+    margin-top: 40px;
+    border: 2px solid #df5772;
+}
+.newMeeting {
+    background-color: #FAFBD4;
+    height: 180px;
+    width: 150px;
+    margin-top: 40px;
+    border: 2px solid #2a63aa;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #df5772;
+    margin-top: 10px;
+}
+.days, .hours, .minutes, .seconds {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;  
+    color: #df5772;
+    margin-top: 20px ;
+    margin-bottom: 20px;  
+}
+/* Анкета */
+.anketa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+   
+    font-size: 30px;
+    color: #df5772;
+}
+label {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #c54760;
+  
+}
+.text-input {
+    background-color: #faf1e6;
+    border: none;
+    padding: 12px 20px;
+}
+.btn {
+    background-color: #d1ffac;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    width: 20%;
+    border-radius: 10px;
+    border: 2px solid #df5772;
+    color: #df5772 ;
+}
+.play { 
+    width: 50px;
+    height: 50px;
+    background-image: url(icons8-play-button-circled-48.png) ;
+    background-size: contain;
+}
+.pause {
+    background-image: url(icons8-pause-button-50.png);
+}
+#myButton {
+    align-self: flex-start;
+    border: none;
+    margin-left: 30px;
+   margin-top: 30px;
+   background-repeat: no-repeat;
+   background-color: #d1ffac;
+   border-radius: 35px;   
+}
+@media all and (max-width: 900px) {
+    h1 {
+        font-size: 70px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .myButton {
+        padding: 0;
+        margin-top: 0;
+    }
+   .heading1 {
+    display: flex;
+    flex-direction: column;
+   }
+    .newHeading {
+        font-size: 50px;
+    }
+    .container {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       flex-wrap: nowrap;
+    }
+    .chair {
+        width: 700px;
+    }
+    .image, .newImage {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px; 
+    }
+    .kate {
+
+        width: 500px; 
+      }
+
+.left, .right {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.meeting {
+    background-color: #d1ffac;
+    height:150px;
+    width: 120px;
+}
+h3 {
+    font-size: 30px;
+}
+.header,.label {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+}
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+        
+    }
+    h3 {
+        font-size: 20px;
+    }
+
+    .chair {
+        width: 400px;
+    }
+    .meeting {
+       
+        height: 120px;
+        width: 100px;
+    }
+    .days, .hours, .minutes, .seconds {
+   
+        font-size: 25px; 
+
+}
+}

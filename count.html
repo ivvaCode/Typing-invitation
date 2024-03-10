@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="count.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="myAudio" src="bruno-mars-marry-you_456240086.mp3" loop="lopp" autoplay="allowed" ></audio>
+    <div class="heading1">
+    <h1>Our celebration will take place on March 11, 2024</h1>
+    <button id="myButton" class="play"></button>
+    </div>
+ 
+<div class="container">
+    <div class="left">
+    <div class="meeting">
+        <div class="block">
+            <h4 class="days"></h4>
+            <h3>DAYS</h3>
+        </div>
+    </div>
+
+    <div class="meeting">
+        <div class="block">
+            <h4 class="hours"></h4>
+            <h3>HOURS</h3>
+        </div>
+    </div>
+</div>
+
+    <div class="image">
+        <img  src="jeremy-wong-weddings-K41SGnGKxVk-unsplash.jpg" alt="We"   width="700px" >
+    </div>
+    <div class="newImage">
+        <img  src="IMG-20220417-WA0004.jpg" alt="We"   width="400px" >
+    </div>
+  
+    <div class="right">
+    <div class="meeting">
+        <div class="block">
+            <h4 class="minutes"></h4>
+            <h3>MINUTES</h3>
+        </div>
+    </div>
+
+    <div class="meeting">
+        <div class="block">
+            <h4 class="seconds"></h4>
+            <h3>SECONDS</h3>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+     <!-- Анкета -->
+     <div class="anketa">
+
+        <h3 class="header">Answer us</h3>
+    
+     <form
+  action="https://formspree.io/f/xeqdvdlw"
+  method="POST"
+>
+<!--Чтобы изменить язык подтверждения отправки формы. Сокращения языков смотри по ссылке https://help.formspree.io/hc/en-us/articles/360013468374-Localization-and-translation
+     <input type="hidden" name="_language" value="fr"/> -->
+<div class="heading">
+  <label>
+    Your email:
+   <!-- Добавляем  required="", чтобы пользователь не отправил пустое поле в анкете -->
+    <input type="email" class="text-input" name="_repluto" placeholder="Your email..." required="">
+  </label>
+</div>
+<br>
+  <div class="heading">
+  <label>
+   
+    Your message:
+    <!-- Добавляем  required="", чтобы пользователь не отправил пустое поле в анкете -->
+    <textarea class="text-input" name="message" placeholder="Type your message..." required=""></textarea>
+  </label>
+</div>
+<br>
+  <!-- your other form fields go here -->
+<div class="heading">
+  <button class="btn" type="submit">Send</button>
+</div>
+</form>
+</div>  
+
+   <script src="count.js"></script> 
+</body>
+</html>
